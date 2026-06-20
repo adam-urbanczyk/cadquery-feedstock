@@ -30,7 +30,7 @@ requirements:
     - multimethod >=1.11,<2
     - nlopt >=2.9.0,<3.0
     - path
-    - ocp=7.9.3.1
+    - ocp =7.9.3.1
     - python >=${{ python_min }}
     - runtype
     - trame
