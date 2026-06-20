@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "2.7.0"
+  version: "2.8.0"
 
 package:
   name: cadquery
@@ -30,13 +30,15 @@ requirements:
     - multimethod >=1.11,<2
     - nlopt >=2.9.0,<3.0
     - path
-    - ocp >=7.8.1,<7.9
+    - ocp=7.9.3.1
     - python >=${{ python_min }}
     - runtype
     - trame
     - trame-vtk
     - trame-components
     - trame-vuetify
+    - pyparsing >=3.0.0
+    - path
 
 tests:
   - python:
