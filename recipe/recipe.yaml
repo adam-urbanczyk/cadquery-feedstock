@@ -39,6 +39,7 @@ requirements:
     - trame-vuetify
     - pyparsing >=3.0.0
     - path
+    - scipy
 
 tests:
   - python:
